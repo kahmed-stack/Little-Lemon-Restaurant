@@ -1,0 +1,130 @@
+/*Universal Selector.*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial, Times;
+}
+
+/* Basic margin setup for a responsive design*/
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #fff;
+}
+
+/*Logo images were not behaving without this setup*/
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo{
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    background-color: #495e57;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    text-align: center;   
+}
+
+/*Anything text-style related change needed to target <a> tag*/
+.navbar a{
+    text-decoration: none;
+    color: #f4ce14;
+    font-weight:bold;   
+}
+
+/* Postiion of nav menu needed to target <ul> or its class */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;   
+}
+
+/*How much space each individual box gets has to be decided using only <li> element.*/
+li{
+    flex: 1;
+}
+
+/*This a way to add background image */
+.main_card{
+    padding: 5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    background-image: url(pexels-engin-akyurt-1437267.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: #fff;
+}
+
+p{
+    font-size: larger;
+
+
+}
+.three_cards{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 1rem;
+}
+
+.footer_logo{
+    width: 100%;
+    height: 5rem;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div {
+    flex: 1;
+}
+
+.copyright{
+    border-top: 1.5px solid #4c5c54;
+}
+
+.card1, .card2, .card3{
+    background-color: #c6c39f;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    height: 30rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav_menu a:hover{
+    background-color: #f4ce14;
+    color: #495e57;
+    padding: 0.7rem;
+
+}
+.nav_menu a:active{
+    background-color: #495e57;
+    color: #f4ce14;
+}
+
+.three_cards :hover{
+    background-color:#efda72;
+}

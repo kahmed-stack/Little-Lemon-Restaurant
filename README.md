@@ -1,2 +1,3 @@
 # Little-Lemon-Restaurant
-Meta's Course Project
+My First project for Meta's Front-End Certification Course
+
